@@ -1,0 +1,359 @@
+:root{
+
+    --Black-Purple:rgb(92, 70, 156);
+    --Light-black:rgb(57, 54, 70);
+    --Very-dark-blue:rgb(22, 0, 64);
+    --Dark-blue:rgb(63, 59, 108);
+
+}
+
+body{
+
+    font-family: 'Lato', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url(/Imagenes/Fondo.jpg);
+    background-size: auto;
+    min-width: 375px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+
+    width: 100%;
+    height: 100%;
+    
+
+}
+
+.paragraph{
+
+    padding: 3px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: var(--Dark-blue);
+    border: 5px double var(--Black-Purple);
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.title{
+
+    color: white;
+    padding: 3px;
+    margin-bottom: 15px;
+    background-color: var(--Dark-blue);
+    border: 2px double var(--Dark-blue);
+    border-radius: 10px;
+    box-shadow: 2px 1px 5px black;
+
+}
+
+.T__header{
+
+    width: 83%;
+    height: 50px;
+    padding: 0px 20px;
+    margin-right: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: var(--Dark-blue);
+    border-radius: 10px;
+    position: fixed;
+    top: 20px;
+
+}
+
+.TwitchL__container{
+
+    padding: 0px 20px 0px 2px;
+
+}
+
+.Transparent__icon{
+
+    height: 30px;
+    animation-name: slidein;
+
+}
+
+.HParagraph__container{
+    
+    width: 100%;
+    display: flex;
+    margin: 10px;
+    flex-direction: row;
+    align-items: center;
+    font-size: 13px;
+    justify-content: end;
+
+}
+
+.header__paragraph{
+    
+    margin: 10px;
+    padding: 3px;
+    color: white;
+
+}
+
+.Start__container{
+
+    display: flex;
+    flex-direction: column;
+    width: 78%;
+    border-bottom: 10px solid var(--Very-dark-blue);
+    border-radius: 20px;
+    margin: 80px 15px 0px 0;
+    padding: 30px;
+    background-image: url(/Imagenes/Web_decoration_4-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 800px;
+    background-color: var(--Dark-blue);
+}
+
+.Tlogo__container{
+
+    padding: 10px;
+    margin-top: -20px;
+    margin-bottom: -30px;
+
+}
+
+.Tmain__container{
+
+    display: flex;
+
+}
+
+.Background__icon{
+
+    width: 150px;
+    height: 150px;
+    margin-left: 65px;
+    padding-bottom: -10px;
+
+}
+
+.Stream__container{
+
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 15px;
+
+}
+
+.image{
+
+    width: 150px;
+    height: 150px;
+    border: 3px dashed var(--Very-dark-blue);
+    border-radius: 10px;
+
+}
+
+#Image__container{
+
+    width: 88%;
+    height: 100%;
+    margin: 20px 0px 50px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    background-color: var(--Black-Purple);
+    border-radius: 20px;
+    border-bottom: 5px ridge var(--Light-black);
+    background-image: url(/Imagenes/Web_decoration_3-removebg-preview.png);
+    
+}
+
+.RImg__container{
+
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+.CImg__container{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.Spreen__img{
+
+    margin-right:10px;
+
+}
+
+.stream{
+
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+
+}
+
+.chat__container{
+
+    flex-direction: column-reverse;
+
+}
+
+.Rivers__img{
+
+    margin-left: 10px;
+
+}
+
+.Rivers__title{
+
+    right: 60px;
+    top: 880px;
+
+}
+
+.Chat__title{
+
+    bottom: -650px;
+
+}
+
+.end__container{
+
+    width: 77%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border: 3px ridge var(--Light-black);
+    border-radius: 20px;
+    background-color: var(--Black-Purple);
+    padding: 30px;
+    margin: 15px 12px 0px 0px;
+    background-image: url(/Imagenes/Web_decoration_1-removebg-preview-removebg-preview.png);
+    background-size: 600px;
+    background-position: center;
+
+}
+
+.FParagraph__container{
+
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--Dark-blue);
+    border: 4px groove purple;
+    border-radius: 20px;
+    padding: 10px;
+    background-image: url(/Imagenes/Web_decoration_3-removebg-preview.png);
+    background-size: 10px;
+    background-repeat: repeat-x;
+    background-blend-mode: hard-light;
+
+}
+
+.list__title{
+
+    color: white;
+    font-size: larger;
+    font-family: 'Lato', sans-serif;
+    padding: 3px;
+    margin: 20px 0px -10px;
+    border-radius: 10px;    
+    font-style: italic;
+    box-shadow: 2px 2px 5px black;
+    background-color: blueviolet;
+    
+}
+
+.list__container{
+
+    color: white;
+    padding: 15px 15px 20px;
+    background-image: url(/Imagenes/Web_decoration_3-removebg-preview.png);
+    background-size: 10px;
+    background-repeat: repeat-x;
+    background-position-y:bottom;
+    background-blend-mode: hard-light;
+
+}
+
+.list__paragraph{
+
+    text-align: justify;
+
+}
+
+@media(min-width: 768px) {
+
+    .header__paragraph{
+    
+        margin: 20px;
+        padding: 5px 10px;
+    
+    }
+
+    .Start__container{
+
+        width: 40rem;
+        background-position: top;
+        background-size: 400px;
+        background-repeat: repeat;
+        align-items: center;
+        margin-bottom: 4rem;
+
+    }
+
+    .Background__icon{
+
+        margin-left: 95px;
+
+    }
+
+    .Tlogo__container{
+
+        margin-right: 6rem;
+        
+    }
+
+    .Stream__container{
+
+        display: inline-flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-left: 10px;
+
+    }
+
+    #Image__container{
+
+        width: 220px;
+        height: 480px;
+        margin: 10px;
+        display: flex;
+        justify-self: center;
+        flex-direction: column;
+        background-position: top;
+        
+    }
+
+    .end__container{
+
+        margin-top: 5rem;
+
+    }
+
+}
