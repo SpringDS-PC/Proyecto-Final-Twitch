@@ -11,7 +11,7 @@ body{
 
     font-family: 'Lato', sans-serif;
     font-family: 'Ubuntu', sans-serif;
-    background-image: url(/Imagenes/Fondo.jpg);
+    background-image: url(/Proyecto-Final-Twitch/Imagenes/Fondo.jpg);
     background-size: auto;
     min-width: 375px;
     display: flex;
@@ -112,7 +112,7 @@ body{
     border-radius: 20px;
     margin: 80px 15px 0px 0;
     padding: 30px;
-    background-image: url(/Imagenes/Web_decoration_4-removebg-preview.png);
+    background-image: url(/Proyecto-Final-Twitch/Imagenes/Web_decoration_4-removebg-preview.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 800px;
@@ -172,7 +172,7 @@ body{
     background-color: var(--Black-Purple);
     border-radius: 20px;
     border-bottom: 5px ridge var(--Light-black);
-    background-image: url(/Imagenes/Web_decoration_3-removebg-preview.png);
+    background-image: url(/Proyecto-Final-Twitch/Imagenes/Web_decoration_3-removebg-preview.png);
     
 }
 
@@ -241,7 +241,7 @@ body{
     background-color: var(--Black-Purple);
     padding: 30px;
     margin: 15px 12px 0px 0px;
-    background-image: url(/Imagenes/Web_decoration_1-removebg-preview-removebg-preview.png);
+    background-image: url(/Proyecto-Final-Twitch/Imagenes/Web_decoration_1-removebg-preview-removebg-preview.png);
     background-size: 600px;
     background-position: center;
 
@@ -258,7 +258,7 @@ body{
     border: 4px groove purple;
     border-radius: 20px;
     padding: 10px;
-    background-image: url(/Imagenes/Web_decoration_3-removebg-preview.png);
+    background-image: url(/Proyecto-Final-Twitch/Imagenes/Web_decoration_3-removebg-preview.png);
     background-size: 10px;
     background-repeat: repeat-x;
     background-blend-mode: hard-light;
@@ -283,7 +283,7 @@ body{
 
     color: white;
     padding: 15px 15px 20px;
-    background-image: url(/Imagenes/Web_decoration_3-removebg-preview.png);
+    background-image: url(/Proyecto-Final-Twitch/Imagenes/Web_decoration_3-removebg-preview.png);
     background-size: 10px;
     background-repeat: repeat-x;
     background-position-y:bottom;
